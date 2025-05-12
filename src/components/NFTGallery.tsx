@@ -7,9 +7,9 @@ const COLLECTION_ID = "963ecd12-05a4-45ec-8234-82b198fae077";
 
 export default function NFTGallery() {
   console.log("DEBUG – nftList:", nftList);
-nftList.forEach(nft => {
-  console.log("✅ TEST LOCATOR", `crossmint:${COLLECTION_ID}:${nft.templateId}`);
-});
+  nftList.forEach(nft => {
+    console.log("✅ TEST LOCATOR", `crossmint:${COLLECTION_ID}:${nft.templateId}`);
+  });
 
   return (
     <CrossmintProvider apiKey={API_KEY}>
@@ -39,10 +39,12 @@ nftList.forEach(nft => {
 
               <div style={{ marginTop: "1rem" }}>
                 <CrossmintEmbeddedCheckout
-                  lineItems={{[
-                    collectionLocator: `crossmint:${COLLECTION_ID}:${nft.templateId}`,
-                    callData: { quantity: 1 }
-                  }]}
+                  lineItems={[
+                    {
+                      collectionLocator: `crossmint:${COLLECTION_ID}:${nft.templateId}`,
+                      callData: { quantity: 1 }
+                    }
+                  ]}
                   payment={{
                     fiat: { enabled: true },
                     crypto: { enabled: true }
