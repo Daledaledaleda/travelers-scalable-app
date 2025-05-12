@@ -6,6 +6,8 @@ const API_KEY = "ck_production_5ejoH34XvGYELRyU3vCakPL83cszu...";
 const COLLECTION_ID = "963ecd12-05a4-45ec-8234-82b198fae077";
 
 export default function NFTGallery() {
+  console.log("DEBUG – nftList:", nftList);
+
   return (
     <CrossmintProvider apiKey={API_KEY}>
       <div style={styles.wrapper}>
