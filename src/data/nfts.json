@@ -1,0 +1,30 @@
+[
+  {
+    "id": "traveler-1",
+    "title": "Traveler #1",
+    "description": "First sculpture of the Travelers series by Bruno Catalano, currently exhibited on Park Avenue.",
+    "image": "https://ipfs.io/ipfs/Qm6u1TXcDWpBH2q8fZRuwv1U5yCNqcfY9uEiHYzCmUmvY",
+    "video": "https://raw.githubusercontent.com/Daledaledaleda/assets-public/main/traveler-1.mp4",
+    "templateId": "7ad67f6f-1a0a-478e-a770-c252893280a2",
+    "collectionId": "963ecd12-05a4-45ec-8234-82b198fae077"
+  },
+  {
+    "id": "traveler-2",
+    "title": "Traveler #2",
+    "description": "Second sculpture in the Park Avenue collection. A unique vision by Bruno Catalano.",
+    "image": "https://ipfs.io/ipfs/QmVo2vofAWajzo2MD6EvqqLDDbLgL5vJWFNenoJRkCUNX",
+    "video": null,
+    "templateId": "99478669-81ee-459d-bab2-05e726cc1bf1",
+    "collectionId": "963ecd12-05a4-45ec-8234-82b198fae077"
+  },
+  {
+    "id": "traveler-3",
+    "title": "Traveler #3",
+    "description": "The third piece from the iconic Travelers series. Exhibited on Park Avenue 2025.",
+    "image": "https://raw.githubusercontent.com/Daledaledaleda/assets-public/main/travelers/traveler-3.png",
+    "video": null,
+    "templateId": "a6c07732-8b7c-4634-99cc-54790b4296ad",
+    "collectionId": "963ecd12-05a4-45ec-8234-82b198fae077"
+  }
+]
+
