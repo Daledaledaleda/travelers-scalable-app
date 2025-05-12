@@ -39,10 +39,10 @@ nftList.forEach(nft => {
 
               <div style={{ marginTop: "1rem" }}>
                 <CrossmintEmbeddedCheckout
-                  lineItems={{
+                  lineItems={{[
                     collectionLocator: `crossmint:${COLLECTION_ID}:${nft.templateId}`,
                     callData: { quantity: 1 }
-                  }}
+                  }]}
                   payment={{
                     fiat: { enabled: true },
                     crypto: { enabled: true }
